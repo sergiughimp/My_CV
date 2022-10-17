@@ -26,10 +26,53 @@ body {
 .work-experience-section{
     background-color: aqua;
 }
+/* sidebar styles */
 .sidebar-section{
     background-color: #1E2939;
+    width: 900px;
 }
+.sidebar-section img{
+    margin-top: 40px;
+}
+.sidebar-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+}
+.contacts-section, .tech-skills-section, .soft-skills-section{
+    margin-left: 20px;
+}
+.contacts-section-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.contacts-section-value {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3A4352
+}
+.sidebar-list {
+    color: #FB6D3A;
+    padding-left: 25px;
+}
+.sidebar-list span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+
 #image{
-    width: 220px;
-    height: 230px;
+    width: 252px;
+    height: 250px;
 }
