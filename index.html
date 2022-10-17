@@ -7,118 +7,133 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/style.css">
         <title>My CV</title>
     </head>
     <body>
-        <!-- This is maine section -->
-        <div>
-            <!-- about me section -->
-            <div>
-                <h2>Python Developer</h2>
-                <h1>Sergiu Ghimp</h1>
-                <p>I am a motivated and creative person, I want to gain experience and create a career in a company in the IT field, where
-                I can work in a team and contribute with colleagues to achieve goals, at a job with a full-time program.
-                My passions are programming and travel. I want to develop them to the highest level so that I can work from any corner
-                of the world and travel at the same time.</p>
-            </div>
-            <!--  Projects section -->
-            <div>
-                <h2>Projects</h2>
-                <ul>
-                    <li>
-                        <a href="https://github.com/sergiughimp/CursPython.git">https://github.com/sergiughimp/CursPython.git</a>
-                        <span>..........</span>
-                        <span>[ Python ]</span>
-                    </li>
-                </ul>
-            </div>
-            <!-- Work Experience -->
-            <div>
-                <h2>Work Experience</h2>
-                <!-- Company nr 1 -->
+        <!-- our app -->
+        <div class="main-section">
+            <!-- This is maine section -->
+            <div class="right-section">
+                <!-- about me section -->
+                <div class="about-me-section">
+                    <h2 class="about-me-profession">Python Developer</h2>
+                    <h1>Sergiu Ghimp</h1>
+                    <p>I am a motivated and creative person, I want to gain experience and create a career in a company in the IT
+                        field, where
+                        I can work in a team and contribute with colleagues to achieve goals, at a job with a full-time program.
+                        My passions are programming and travel. I want to develop them to the highest level so that I can work from
+                        any corner
+                        of the world and travel at the same time.</p>
+                </div>
+                <!--  Projects section -->
+                <div class="projects-section">
+                    <h2>Projects</h2>
+                    <ol>
+                        <li>
+                            <a
+                                href="https://github.com/sergiughimp/CursPython.git">https://github.com/sergiughimp/CursPython.git</a>
+                            <span>..........</span>
+                            <span>[ Python ]</span>
+                        </li>
+                        <li>
+                            <a href="https://github.com/sergiughimp/CursPython.git">https://github.com/sergiughimp/CursPython.git</a>
+                            <span>..........</span>
+                            <span>[ Python ]</span>
+                        </li>
+                    </ol>
+                </div>
+                <!-- Work Experience -->
+                <div class="work-experience-section">
+                    <h2>Work Experience</h2>
+                    <!-- Company nr 1 -->
+                    <div>
+                        <h2>Front Desk | Provincetown Inn</h2>
+                        <p>June 2021 - October 2021 | Provincetown, Massachusetts, United States of America</p>
+                        <ul>
+                            <li>Check guests in and out of their rooms and make reservations on the phone</li>
+                            <li>Displaying a professional, pleasant attitude to all customers</li>
+                            <li>The practice of “empowerment” to exceed guest expectations</li>
+                            <li>Work unsupervised and exercise strong business judgment and self-discipline</li>
+                        </ul>
+                    </div>
+                    <!-- Company nr 2 -->
+                    <div>
+                        <h2>Python Software Developer | Expleo Group</h2>
+                        <p>October 2020 - June 2021 | Iasi, Romania</p>
+                        <ul>
+                            <li>Design, develop document software specifications, and create, and test applications</li>
+                            <li>Researching, designing, implementing, and managing software programs</li>
+                            <li>Developing quality assurance procedures</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Education -->
                 <div>
-                    <h3>Front Desk | Provincetown Inn</h3>
-                    <p>June 2021 - October 2021 | Provincetown, Massachusetts, United States of America</p>
+                    <h2>Education</h2>
+                    <!-- Education 1 -->
+                    <div>
+                        <h2>Liceul Teoretic de Informatica "Grigore Moisil"</h2>
+                        <p>September 2012 - June 2016 | Iasi, Romania</p>
+                    </div>
+                    <div>
+                        <h2>Faculty of Computer Science, Bachelor's degree, "Alexandru Ioan Cuza" Univerity</h2>
+                        <p>October 2016 - July 2019 | Iasi, Romania</p>
+                    </div>
+                    <div>
+                        <h2>Master of Business Administration - MBA, Master degree, Universität Konstanz</h2>
+                        <p>October 2021 - February 2022 | Konstanz, Germany</p>
+                    </div>
+                    <div>
+                        <h2>Master of Business Information Systems, Master degree, "Alexandru Ioan Cuza" Univerity</h2>
+                        <p>October 2020 - July 2022 | Iasi, Romania</p>
+                    </div>
+                </div>
+            </div>
+            <!-- side bar section -->
+            <aside class="sidebar-section">
+                <img id="image" src="./img/photo1.jpg" alt="photo">
+                <!-- Contacts section -->
+                <div>
+                    <h2>Contacts</h2>
+                    <div>
+                        <span>C:</span>
+                        <a href="tel:+447856461721">+447856461721</a>
+                    </div>
+                    <div>
+                        <span>E:</span>
+                        <a href="mailto:ghimpsergiu@gmail.com">ghimpsergiu@gmail.com</a>
+                    </div>
+                </div>
+                <!-- Tech Skills Section -->
+                <div>
+                    <h2>Tech Skills</h2>
                     <ul>
-                        <li>Check guests in and out of their rooms and make reservations on the phone</li>
-                        <li>Displaying a professional, pleasant attitude to all customers</li>
-                        <li>The practice of “empowerment” to exceed guest expectations</li>
-                        <li>Work unsupervised and exercise strong business judgment and self-discipline</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Git & GitHub</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>SQL & PL/SQL</li>
+                        <li>Java</li>
                     </ul>
                 </div>
-                <!-- Company nr 2 -->
+                <!-- Soft Skills -->
                 <div>
-                    <h2>Python Software Developer | Expleo Group</h2>
-                    <p>October 2020 - June 2021 | Iasi, Romania</p>
+                    <h2>Soft Skills</h2>
                     <ul>
-                        <li>Design, develop document software specifications, and create, and test applications</li>
-                        <li>Researching, designing, implementing, and managing software programs</li>
-                        <li>Developing quality assurance procedures</li>
+                        <li>Scrum</li>
+                        <li>Agile</li>
+                        <li>Teamwork</li>
+                        <li>Logical Thinking</li>
+                        <li>Organization Skills</li>
+                        <li>Project Management</li>
                     </ul>
                 </div>
-            </div>
-            <!-- Education -->
-            <div>
-                <h2>Education</h2>
-                <!-- Education 1 -->
-                <div>
-                    <h2>Liceul Teoretic de Informatica "Grigore Moisil"</h2>
-                    <p>September 2012 - June 2016 | Iasi, Romania</p>
-                </div>
-                <div>
-                    <h2>Faculty of Computer Science, Bachelor's degree, "Alexandru Ioan Cuza" Univerity</h2>
-                    <p>October 2016 - July 2019 | Iasi, Romania</p>
-                </div>
-                <div>
-                    <h2>Master of Business Administration - MBA, Master degree, Universität Konstanz</h2>
-                    <p>October 2021 - February 2022 | Konstanz, Germany</p>
-                </div>
-                <div>
-                    <h2>Master of Business Information Systems, Master degree, "Alexandru Ioan Cuza" Univerity</h2>
-                    <p>October 2020 - July 2022 | Iasi, Romania</p>
-                </div>
-            </div>
+            </aside>
         </div>
-        <!-- side bar section -->
-        <aside>
-            <img src="./img/photo1.jpg" alt="photo">
-            <!-- Contacts section -->
-            <div>
-                <h2>Contacts</h2>
-                <div>
-                    <span>C:</span> 
-                    <a href="tel:+447856461721">+447856461721</a>
-                </div>
-                <div>
-                    <span>E:</span>
-                    <a href="mailto:ghimpsergiu@gmail.com">ghimpsergiu@gmail.com</a>
-                </div>
-            </div>
-            <!-- Tech Skills Section -->
-            <div>
-                <h2>Tech Skills</h2>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>Git & GitHub</li>
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                    <li>SQL & PL/SQL</li>
-                    <li>Java</li>
-                </ul>
-            </div>
-            <!-- Soft Skills -->
-            <div>
-                <h2>Soft Skills</h2>
-                <ul>
-                    <li>Scrum</li>
-                    <li>Agile</li>
-                    <li>Teamwork</li>
-                    <li>Logical Thinking</li>
-                    <li>Organization Skills</li>
-                    <li>Project Management</li>
-                </ul>
-            </div>
-        </aside>
     </body>
 </html>
